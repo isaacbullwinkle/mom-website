@@ -77,10 +77,11 @@ footer {
 }
 
 .profile-photo {
-  max-width: 150px; /* Adjust the size of the photo */
-  width: 100%; /* Ensures the image scales responsively */
-  border-radius: 50%; /* This makes it a perfect circle */
-  border: 3px solid #333; /* Optional: border to make the photo pop */
+  width: 150px; /* Set width */
+  height: 150px; /* Set height to the same value for a perfect circle */
+  border-radius: 50%; /* This ensures it's circular */
+  border: 3px solid #333; /* Optional: border to make the photo stand out */
   margin: 1rem auto; /* Centers the photo */
   display: block;
 }
+

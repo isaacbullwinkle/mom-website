@@ -75,3 +75,12 @@ footer {
   font-size: 0.9rem;
   color: #666;
 }
+
+.profile-photo {
+  max-width: 150px; /* Adjust the size of the photo */
+  width: 100%; /* Ensures the image scales responsively */
+  border-radius: 50%; /* This makes it a perfect circle */
+  border: 3px solid #333; /* Optional: border to make the photo pop */
+  margin: 1rem auto; /* Centers the photo */
+  display: block;
+}

@@ -1,0 +1,77 @@
+/* Base setup */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'EB Garamond', serif;
+  background-color: #fdfdfd;
+  color: #222;
+  line-height: 1.6;
+  font-size: 18px;
+  padding: 1rem;
+}
+
+h1, h2, h3 {
+  font-family: 'Inter', sans-serif;
+  font-weight: 600;
+  color: #1a1a1a;
+}
+
+a {
+  color: #003B71;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Navigation */
+header {
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 2rem;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem 0;
+  justify-content: center;
+  font-family: 'Inter', sans-serif;
+}
+
+nav a {
+  font-size: 16px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  margin-top: 4rem;
+  padding: 0 1rem;
+}
+
+.hero h1 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+}
+
+.hero p {
+  margin-top: 0.5rem;
+  font-size: 1.125rem;
+  color: #444;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  margin-top: 4rem;
+  padding-top: 2rem;
+  border-top: 1px solid #ddd;
+  font-size: 0.9rem;
+  color: #666;
+}
